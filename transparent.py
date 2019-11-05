@@ -10,4 +10,4 @@ def chgSend(x):
     send(x)
 
 while 1:
-    sniff(x)
+    sniff(pckt=chgSend)
